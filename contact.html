@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Velora Beauty Studio | Contact</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fffaf8;
+            color: #3d302d;
+        }
+
+        header {
+            background-color: #f3e4df;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: Georgia, serif;
+            font-size: 28px;
+            color: #8b5e58;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3d302d;
+            margin-left: 25px;
+        }
+
+        .page-title {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #f8ece8;
+        }
+
+        .page-title h1 {
+            font-family: Georgia, serif;
+            font-size: 45px;
+            color: #8b5e58;
+        }
+
+        .contact {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .contact-card {
+            background-color: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .contact-card h2 {
+            font-family: Georgia, serif;
+            color: #8b5e58;
+            margin-bottom: 20px;
+        }
+
+        .contact-card p {
+            line-height: 2;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: #8b5e58;
+            margin-right: 15px;
+        }
+
+        footer {
+            background-color: #3d302d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .contact {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <div class="logo">Velora Beauty Studio</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Page Heading -->
+    <section class="page-title">
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact Information -->
+    <main class="contact">
+
+        <div class="contact-card">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                <strong>Phone:</strong><br>
+                +27 72 808 9515
+            </p>
+
+            <p>
+                <strong>Email:</strong><br>
+                hello@velorabeautystudio.co.za
+            </p>
+
+            <p>
+                <strong>Location:</strong><br>
+                Johannesburg, Gauteng, South Africa
+            </p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <h2>Opening Hours</h2>
+
+            <p>
+                Monday – Friday: 09:00 – 18:00
+            </p>
+
+            <p>
+                Saturday: 08:00 – 16:00
+            </p>
+
+            <p>
+                Sunday: Closed
+            </p>
+
+            <h2>Follow Us</h2>
+
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">TikTok</a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Velora Beauty Studio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

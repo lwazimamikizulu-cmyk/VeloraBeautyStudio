@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Velora Beauty Studio | Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fffaf8;
+            color: #3d302d;
+        }
+
+        header {
+            background-color: #f3e4df;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: Georgia, serif;
+            font-size: 28px;
+            color: #8b5e58;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3d302d;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #a77b72;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(
+                rgba(255, 250, 248, 0.85),
+                rgba(255, 250, 248, 0.85)
+            ),
+            url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-family: Georgia, serif;
+            font-size: 55px;
+            color: #8b5e58;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #8b5e58;
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+
+        .button:hover {
+            background-color: #6f4944;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 70px 10%;
+        }
+
+        .intro h2 {
+            font-family: Georgia, serif;
+            font-size: 35px;
+            color: #8b5e58;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #3d302d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <div class="logo">Velora Beauty Studio</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Beauty, Elevated.</h1>
+
+            <p>
+                Welcome to Velora Beauty Studio, where beauty meets
+                confidence, elegance and personalised care.
+            </p>
+
+            <a href="enquiry.html" class="button">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h2>Welcome to Velora</h2>
+
+        <p>
+            At Velora Beauty Studio, we believe beauty is more than
+            appearance. It is about confidence, self-care and feeling
+            your absolute best. Our professional beauty services are
+            designed to give every client a relaxing and luxurious
+            experience.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Velora Beauty Studio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
